@@ -52,86 +52,29 @@ IPK: 3.75
 ```
 
 ## Tugas
-Manajemen Perpustakaan
+Modelkan beberapa entitas data yang berkaitan dengan industri pertanian menggunakan struktur (struct) dalam bahasa pemrograman C++. Anda akan membuat struktur untuk menyimpan informasi tentang tanaman, hewan, dan petani.
 
-Anda diminta untuk membuat sebuah program manajemen perpustakaan sederhana menggunakan struktur dalam bahasa C++. Program ini harus dapat melakukan fungsi-fungsi berikut:
+Instruksi Tugas
+1. Buatlah sebuah program C++ yang mendefinisikan tiga struktur: `Tanaman`, `Hewan`, dan `Petani`.
+2. Setiap struktur harus memiliki setidaknya tiga anggota data yang relevan dengan entitas yang mewakilinya. Contoh, struktur Tanaman bisa memiliki anggota data seperti `nama`, `harga`, dan 'jumlahPanenTahunan'.
+3. Implementasikan fungsi untuk memasukkan informasi ke dalam struktur (input).
+4. Implementasikan fungsi untuk menampilkan informasi dari struktur (output).
+5. Buatlah beberapa contoh data untuk setiap struktur yang Anda buat, dan gunakan fungsi untuk menampilkan data tersebut.
 
-- Menambahkan buku baru ke dalam perpustakaan.
-- Menampilkan daftar semua buku yang tersedia di perpustakaan.
-- Mencari buku berdasarkan judul.
-- Menghapus buku dari perpustakaan.
+Contoh Output
+```
+Informasi Tanaman:
+Nama: Jagung
+Harga per Kilogram: $0.50
+Jumlah Panen Tahunan: 5000 kg
 
-Contoh output program:
-```markdown
+Informasi Hewan:
+Nama: Sapi
+Jumlah: 50 ekor
+Harga per Ekor: $1000
 
-Selamat Datang di Manajemen Perpustakaan!
-
-Menu:
-1. Tambah Buku Baru
-2. Tampilkan Daftar Buku
-3. Cari Buku
-4. Hapus Buku
-5. Keluar
-
-Pilih operasi yang ingin dilakukan: 1
-
-Masukkan informasi buku baru:
-Judul: Harry Potter and the Philosopher's Stone
-Pengarang: J.K. Rowling
-Tahun Terbit: 1997
-Nomor ISBN: 978-0747532743
-
-Buku berhasil ditambahkan ke dalam perpustakaan.
-
-Menu:
-1. Tambah Buku Baru
-2. Tampilkan Daftar Buku
-3. Cari Buku
-4. Hapus Buku
-5. Keluar
-
-Pilih operasi yang ingin dilakukan: 2
-
-Daftar Buku dalam Perpustakaan:
-1. Judul: Harry Potter and the Philosopher's Stone
-   Pengarang: J.K. Rowling
-   Tahun Terbit: 1997
-   Nomor ISBN: 978-0747532743
-
-Menu:
-1. Tambah Buku Baru
-2. Tampilkan Daftar Buku
-3. Cari Buku
-4. Hapus Buku
-5. Keluar
-
-Pilih operasi yang ingin dilakukan: 3
-
-Masukkan judul buku yang ingin dicari: The Great Gatsby
-
-Buku tidak ditemukan dalam perpustakaan.
-
-Menu:
-1. Tambah Buku Baru
-2. Tampilkan Daftar Buku
-3. Cari Buku
-4. Hapus Buku
-5. Keluar
-
-Pilih operasi yang ingin dilakukan: 4
-
-Masukkan judul buku yang ingin dihapus: Harry Potter and the Philosopher's Stone
-
-Buku berhasil dihapus dari perpustakaan.
-
-Menu:
-1. Tambah Buku Baru
-2. Tampilkan Daftar Buku
-3. Cari Buku
-4. Hapus Buku
-5. Keluar
-
-Pilih operasi yang ingin dilakukan: 5
-
-Terima kasih telah menggunakan program Manajemen Perpustakaan.
+Informasi Petani:
+Nama: Budi
+Usia: 35 tahun
+Pendapatan Tahunan: $30000
 ```
