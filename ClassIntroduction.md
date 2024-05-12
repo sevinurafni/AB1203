@@ -113,3 +113,7 @@ int main() {
 3. Polimorfisme: Polimorfisme memungkinkan objek dari kelas yang berbeda untuk merespons dengan cara yang berbeda terhadap pemanggilan metode yang sama. Ada polimorfisme statis dan dinamis.
 
 4. Abstraksi: Abstraksi adalah konsep memfokuskan pada fitur yang penting sambil menyembunyikan detail yang tidak penting. Ini membantu dalam menyederhanakan kompleksitas sistem.
+
+### Referensi
+1. https://www.w3schools.com/cpp/cpp_oop.asp
+2. https://www.w3schools.com/cpp/cpp_classes.asp
