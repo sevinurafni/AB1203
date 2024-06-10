@@ -10,7 +10,7 @@ Contoh: Ada kelas turunan `mamalia` yang mewarisi sifat-sifatnya dari kelas dasa
 
 ## Syntax
 ```c++
-class Parentclass {
+class ParentClass {
     // properties and methods
 };
 
@@ -28,7 +28,7 @@ using namespace std;
 // Kelas dasar Karyawan
 class Karyawan {
 public:
-    string nama = "John";
+    string nama = "Ariela";
     void bekerja() {
         cout << "Sedang bekerja \n";
     }
@@ -46,5 +46,50 @@ int main() {
     cout << programmer.nama << " menggunakan bahasa pemrograman " << programmer.bahasaPemrograman << endl;
     return 0;
 }
+
+```
+
+## Protection Level
+**Protected**: Anggota kelas yang dideklarasikan sebagai protected hanya dapat diakses oleh kelas itu sendiri dan kelas-kelas turunannya (derived classes).
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Kelas dasar Karyawan
+class Karyawan {
+protected:
+    string nama = "Musa";
+
+public:
+    void bekerja() {
+        cout << "Sedang bekerja \n";
+    }
+
+    string getNama() {
+        return nama;
+    }
+};
+
+// Kelas turunan Programmer yang mewarisi dari Karyawan
+class Programmer : public Karyawan {
+public:
+    string bahasaPemrograman = "C++";
+
+    void tampilkanInfo() {
+        cout << getNama() << " menggunakan bahasa pemrograman " << bahasaPemrograman << endl;
+    }
+};
+
+int main() {
+    Programmer programmer;
+    Karyawan karyawan;
+    cout<< "Nama diambil melalui obj karyawan "<< karyawan.getNama()<< endl;
+    cout<< "Nama diambil melalui obj programmer "<< programmer.getNama()<< endl;
+    programmer.tampilkanInfo();
+    
+    return 0;
+}
+
 
 ```
