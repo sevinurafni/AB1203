@@ -28,7 +28,7 @@ using namespace std;
 // Kelas dasar Karyawan
 class Karyawan {
 public:
-    string nama = "Ariela";
+    string nama = "Diana";
     void bekerja() {
         cout << "Sedang bekerja \n";
     }
@@ -59,7 +59,7 @@ using namespace std;
 // Kelas dasar Karyawan
 class Karyawan {
 protected:
-    string nama = "Musa";
+    string nama = "Diana";
 
 public:
     void bekerja() {
