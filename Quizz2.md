@@ -50,7 +50,7 @@ class Kendaraan {
     }
 };
 
-class Mobil : public Vehicle {
+class Mobil : public Kendaraan {
 
 };
 
